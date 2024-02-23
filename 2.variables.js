@@ -5,7 +5,7 @@ x = 5          // Statement 2
 y = 6          // Statement 3
 let z = x + y  // Statement 4
 
-const x = 5      // Global scope
+x = 5      // Global scope
 
 {
   const x = 6    // Block scope, not accesible from outside 
@@ -17,6 +17,7 @@ console.log(x)   // Prints 5
 console.log(y)   // Error: Out-of-scope variable
 
 // Const variables are never reasigned
-const myName = 'Alejandro'
-const mySurname = 'Fernández-Montes'
+const myName = 'Damián'
+const mySurname = 'Fernández Cerero'
 console.log(myName + ' ' + mySurname)
+console.log(`${myName} ${mySurname}`)
